@@ -34,9 +34,9 @@ function Brainly($q){
 	$count = 2;
 	$query = array('operationName' => 'SearchQuery',
 		'variables' => [
-			"query" => $q,
-			"after" => null,
-			"first" => 100
+			'query' => $q,
+			'after' => null,
+			'first' => 100
 		],
 		'query' => $formatGraphQl);
 	$data = json_encode($query);
