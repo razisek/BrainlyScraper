@@ -45,8 +45,8 @@ function Brainly($q){
 	curl_setopt($curl, CURLOPT_USERAGENT, "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0");
 	curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 	curl_setopt_array($curl, [
-		CURLOPT_RETURNTRANSFER => 1,
-		CURLOPT_URL			=> 'https://brainly.co.id/graphql/id',
+		CURLOPT_RETURNTRANSFER  => 1,
+		CURLOPT_URL		=> 'https://brainly.co.id/graphql/id',
 		CURLOPT_POST		=> 1,
 		CURLOPT_POSTFIELDS	=> $data
 	]);
