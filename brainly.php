@@ -1,9 +1,10 @@
 <?php
 
 /**
- * @author Rachma Azis <azisrachma321@gmail.com> https://www.facebook.com/azis.riaz
- * @license MIT
+ * @author Rachma Azis <azisrachma321@gmail.com>
  * @version 1.0
+ * Fb : https://www.facebook.com/azis.riaz
+ * IG : @azisek_
  */
 
 function Brainly($q){
