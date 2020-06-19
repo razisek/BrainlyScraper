@@ -13,7 +13,7 @@ git clone https://github.com/ajisek/BrainlyScrapper
 header('Content-Type: application/json');
 include 'brainly.php';
 
-$query = 'kapan terjadinya bulan puranama?';
+$query = 'penemu lampu';
 $result = Brainly($query);
 echo $result;
 
